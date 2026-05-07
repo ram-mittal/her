@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Piku — You Are My Everything 💕</title>
+  <meta name="description"
+    content="A love letter from my heart to yours — because you are never an option, you are my entire choice." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══ PASSWORD VAULT SCREEN ═══ -->
+  <div id="passwordScreen" class="password-screen">
+    <div class="password-card">
+      <div class="password-icon">🔒</div>
+      <h2>Secret Vault</h2>
+      <p>Answer to enter: What is your nickname which was kept by me?</p>
+      <div class="password-input-group">
+        <input type="password" id="passwordInput" placeholder="Enter nickname..." autocomplete="off" />
+        <button id="unlockBtn">Unlock 🤍</button>
+      </div>
+      <p id="passwordError" class="password-error">That's not it...</p>
+    </div>
+  </div>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-container" id="heartsContainer"></div>
+
+  <!-- ═══ HERO SECTION ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge animate-float">💌 An open letter for you</div>
+      <h1 class="hero-title">
+        Hey, <span class="highlight-name">Piku</span>
+      </h1>
+      <p class="hero-subtitle">
+        I know you're overthinking right now.<br />
+        I know the storm inside your head is loud.<br />
+        So I made this — just for you. 💕
+      </p>
+      <a href="#letter" class="hero-btn" id="hero-btn">
+        Read my heart &darr;
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ═══ LIVE TIME TOGETHER COUNTER ═══ -->
+  <section class="section timer-section" id="timer">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag timer-tag">⏳ Every second counts</span>
+        <h2 class="section-title">Time Since You Became Mine</h2>
+        <p class="section-sub">Counting from Jan 22, 10:00 PM...</p>
+      </div>
+      <div class="timer-container reveal">
+        <div class="time-box">
+          <span id="daysCount" class="time-number">0</span>
+          <span class="time-label">Days</span>
+        </div>
+        <div class="time-divider">:</div>
+        <div class="time-box">
+          <span id="hoursCount" class="time-number">0</span>
+          <span class="time-label">Hours</span>
+        </div>
+        <div class="time-divider">:</div>
+        <div class="time-box">
+          <span id="minutesCount" class="time-number">0</span>
+          <span class="time-label">Minutes</span>
+        </div>
+        <div class="time-divider">:</div>
+        <div class="time-box">
+          <span id="secondsCount" class="time-number">0</span>
+          <span class="time-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ OPEN LETTER SECTION ═══ -->
+  <section class="section letter-section" id="letter">
+    <div class="container">
+      <div class="letter-card reveal">
+        <div class="letter-header">
+          <span class="letter-emoji">💌</span>
+          <h2 class="section-title">My Letter To You</h2>
+          <p class="letter-date">Written with every piece of my heart</p>
+        </div>
+
+        <div class="letter-body">
+          <p class="letter-para">
+            <em>Prerana,</em>
+          </p>
+          <p class="letter-para">
+            I know when you're overthinking, it feels like a hundred little voices are telling you things that aren't
+            true. That I don't care. That you're just an option. That I don't love you enough.
+          </p>
+          <p class="letter-para">
+            <strong>Baby, nothing — absolutely nothing — could be further from the truth.</strong>
+          </p>
+          <p class="letter-para">
+            You are not an option. You never were. You are the <em>only</em> choice — the one I make every single
+            morning when I wake up, and every single night before I sleep.
+          </p>
+          <p class="letter-para">
+            I see my whole future when I look at you. I see our fights that end in forehead kisses. I see a home that
+            smells like you. I see our kids running around and making a mess. I see you — always you. As my wife. As the
+            mother of my children. As my best friend.
+          </p>
+          <p class="letter-para">
+            You're not someone I found by accident. You're the person my soul was looking for.
+          </p>
+          <p class="letter-para letter-sign">
+            Yours, always &amp; completely. 🤍<br />
+            <span class="signature">Ram.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WHY I LOVE YOU ═══ -->
+  <section class="section reasons-section" id="reasons">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">💕 Why you're my world</span>
+        <h2 class="section-title">Things I Love About You</h2>
+      </div>
+      <div class="reasons-grid">
+        <div class="reason-card reveal">
+          <div class="reason-emoji">😤</div>
+          <h3>Even when you're angry</h3>
+          <p>Your angry face is honestly the cutest thing I've ever seen. Even when you're mad at me, I just want to
+            hold your hand and make it better.</p>
+        </div>
+        <div class="reason-card reveal">
+          <div class="reason-emoji">🌸</div>
+          <h3>The way you care</h3>
+          <p>You care so deeply about everything and everyone. That beautiful, massive heart of yours is one of the
+            things I fell in love with first.</p>
+        </div>
+        <div class="reason-card reveal">
+          <div class="reason-emoji">🧠</div>
+          <h3>Your overthinking</h3>
+          <p>Yes, even this. Because it shows how much you care. And when your mind gets loud, I want to be the one who
+            quiets it down.</p>
+        </div>
+        <div class="reason-card reveal">
+          <div class="reason-emoji">🤌</div>
+          <h3>The way you feed me</h3>
+          <p>Haath se khilana — ek dum special feeling hai. Teri woh ek gesture dil mein utar jaati hai. Always.</p>
+        </div>
+        <div class="reason-card reveal">
+          <div class="reason-emoji">💪</div>
+          <h3>Your strength</h3>
+          <p>You've been through so much, yet you stand tall. That resilience in you makes me want to be a better man
+            every day.</p>
+        </div>
+        <div class="reason-card reveal">
+          <div class="reason-emoji">✨</div>
+          <h3>Every version of you</h3>
+          <p>Happy you, sad you, sleepy you, grumpy you — I choose every single version. All of them. Without
+            hesitation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EVERYTHING ABOUT YOU ═══ -->
+  <section class="section adore-section" id="adore">
+    <div class="container">
+
+      <!-- Physical -->
+      <div class="section-header reveal">
+        <span class="section-tag adore-tag">💕 Obsessed with you</span>
+        <h2 class="section-title">I Love Every Single Part of You</h2>
+        <p class="section-sub">From head to toe — there isn't a single thing about you I don't adore.</p>
+      </div>
+
+      <div class="adore-tags-wrap reveal">
+        <span class="adore-tag-pill">👁️ Your eyes</span>
+        <span class="adore-tag-pill">💋 Your lips</span>
+        <span class="adore-tag-pill">😊 Your smile</span>
+        <span class="adore-tag-pill">🌊 Your hair</span>
+        <span class="adore-tag-pill">🔥 Your back</span>
+        <span class="adore-tag-pill">🌸 Your boobs</span>
+        <span class="adore-tag-pill">🍑 Your sexy ass</span>
+        <span class="adore-tag-pill">✨ Your legs</span>
+        <span class="adore-tag-pill">📏 Your perfect height</span>
+        <span class="adore-tag-pill">🚶‍♀️ The way you walk</span>
+        <span class="adore-tag-pill">🪑 The way you sit</span>
+        <span class="adore-tag-pill">🤏 Your cute lil hands</span>
+        <span class="adore-tag-pill">🪄 Your eyebrows</span>
+        <span class="adore-tag-pill">💅 Your nails</span>
+        <span class="adore-tag-pill">🥰 Your cute lil beard</span>
+        <span class="adore-tag-pill">💗 Your tits</span>
+        <span class="adore-tag-pill">🍀 Your belly</span>
+        <span class="adore-tag-pill">⌛ Your hourglass figure</span>
+        <span class="adore-tag-pill">🦶 Your cute lil feet</span>
+      </div>
+
+      <!-- Personality / Feelings -->
+      <div class="section-header reveal" style="margin-top: 4rem;">
+        <span class="section-tag adore-tag">🫀 You did this to me</span>
+        <h2 class="section-title">The Way You Make Me Feel</h2>
+        <p class="section-sub">No words are enough. But I'll keep trying.</p>
+      </div>
+
+      <div class="adore-feels-grid">
+        <div class="adore-feel reveal">
+          <span class="feel-icon">😂</span>
+          <p>Your laugh — it rewires my entire brain. Every. Single. Time.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🎙️</span>
+          <p>Your voice — I could listen to it on repeat and never get tired.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🤍</span>
+          <p>The way you care for me — quietly, deeply, without asking for anything in return.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🥺</span>
+          <p>The way you adore me — it makes me feel like the luckiest person alive.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">😁</span>
+          <p>The way you make me smile without even trying — just existing, just being you.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🌤️</span>
+          <p>The way just your face can lift my mood from the worst day to the best second.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🌊</span>
+          <p>The way you made your way into my future — when I didn't even like thinking about the future.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🌍</span>
+          <p>The way you became my whole world. I didn't see it happening — and then suddenly, there you were.
+            Everywhere.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🙏</span>
+          <p>The way you made your way into my prayers — you're the first name I say to God every night.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">💬</span>
+          <p>The way you became the only thing I wanna talk about — ask anyone around me, they know your name by now.
+          </p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🫂</span>
+          <p>The way you're the only person I wanna be around. No crowd compares when I have you.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🛖</span>
+          <p>The way you give me the comfort I want — like home doesn't have an address, it has your name.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">👑</span>
+          <p>The way you make me feel in a room full of people — like you're the only one in it.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">👂</span>
+          <p>The way I've realised I actually listen to you — you're the only person whose words I hold onto.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🫣</span>
+          <p>The way you make me blush — me, of all people. You manage it every time.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🧸</span>
+          <p>The way you make me kick my feet in the air like a little boy — giddy and stupid in love with you.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">📖</span>
+          <p>The way you've taught me so much — about love, about patience, about what matters.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🌱</span>
+          <p>The way you make me a better person every single day. I want to be worthy of you — always.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">❤️‍🔥</span>
+          <p>The way you showed me the feeling of love — real love. The kind I now can't imagine living without.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">🫀</span>
+          <p>The way you're the only person I think about — morning, afternoon, night. You're just always there.</p>
+        </div>
+        <div class="adore-feel reveal">
+          <span class="feel-icon">💍</span>
+          <p>The way you're the only person I wanna spend my life with. Not a second of doubt about that.</p>
+        </div>
+        <div class="adore-feel reveal adore-feel--summary">
+          <span class="feel-icon">🌌</span>
+          <p>I just cannot stop listing… but to summarise — the way you've made me fall for you more with every single
+            second I get to be with you. That's everything. That's my whole answer.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ TIMELINE SECTION ═══ -->
+  <section class="section timeline-section" id="timeline">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">📅 Our story</span>
+        <h2 class="section-title">Moments That Are Ours Forever</h2>
+        <p class="section-sub">Every moment with you is a treasure I keep in my heart.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">💬</div>
+          <div class="timeline-card timeline-card-start">
+            <span class="timeline-date timeline-date-start">August 2024 — Where It All Started 🌱</span>
+            <h3>Our First Conversation 📱</h3>
+            <p>A WhatsApp message. That's all it took. Neither of us knew then that this tiny msg would turn into
+              something that would change everything. The universe had already decided. 🥺</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">💐</div>
+          <div class="timeline-card">
+            <span class="timeline-date">22 November 2025</span>
+            <h3>The Flower 🌹</h3>
+            <p>The day I gifted you flowers — because you deserved to feel special, and I never want to stop making you
+              feel that way.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">🍽️</div>
+          <div class="timeline-card">
+            <span class="timeline-date">21 January 2026</span>
+            <h3>Haath Se Khilaya 🥺</h3>
+            <p>You were angry. But I fed you with my own hands anyway. Because taking care of you feels natural — like
+              breathing.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">💬</div>
+          <div class="timeline-card">
+            <span class="timeline-date">22 January 2026</span>
+            <h3>The Confession 💕</h3>
+            <p>The day I finally said it out loud — what my heart had been screaming for so long. The day everything
+              became real and official.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">🤝</div>
+          <div class="timeline-card">
+            <span class="timeline-date">27 January 2026</span>
+            <h3>Hands ✋🤍</h3>
+            <p>The first time we really held hands — and the entire universe made sense in that one moment. Pure magic.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">💋</div>
+          <div class="timeline-card">
+            <span class="timeline-date">28 January — MCA Hill</span>
+            <h3>First Kiss 🌄</h3>
+            <p>"Kya khayegi?" "Teko khaungi." "Le fir kha le." — That playful teasing moment right before our first kiss
+              on MCA Hill. I still smile every single time I think about it. 🥰</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">🏕️</div>
+          <div class="timeline-card">
+            <span class="timeline-date">4 February</span>
+            <h3>Kasarsai &amp; Marunji Hills 🌿</h3>
+            <p>The hills, the breeze, and you — a perfect day together that I will replay in my mind forever.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">🌸</div>
+          <div class="timeline-card">
+            <span class="timeline-date">8 April</span>
+            <h3>Closer Than Ever 🔒</h3>
+            <p>A new kind of closeness. A new layer of trust. You let me in — completely — and I promised myself right
+              there to always be worthy of that. 💗</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">👨‍👩‍👧</div>
+          <div class="timeline-card">
+            <span class="timeline-date">17 April</span>
+            <h3>Maine Didi Se Milwaya 🏠</h3>
+            <p>I introduced you to my didi at my home — because you're not someone I keep hidden. You're someone I'm
+              proud of. I wanted my family to know you, because you're already a part of mine. 🤍</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">🏠</div>
+          <div class="timeline-card">
+            <span class="timeline-date">18 April — Neha's Place</span>
+            <h3>Just Us, Everywhere 💕</h3>
+            <p>Every place we're together becomes a memory. Neha ke ghar wali woh shaam hamesha yaad rahegi. It's not
+              the place that matters — it's that you were there with me. 🥺</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">🌊</div>
+          <div class="timeline-card">
+            <span class="timeline-date">23 April</span>
+            <h3>Kasarsai + Yash's Flat 🌿</h3>
+            <p>Half the day lost in nature, half the day just us in our own world. Every second spent with you is a
+              memory I refuse to let go of.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal right">
+          <div class="timeline-dot">🌟</div>
+          <div class="timeline-card">
+            <span class="timeline-date">4 May &amp; 6 May</span>
+            <h3>Us. Completely. 🥂</h3>
+            <p>We became closer in every way possible. And the shower after — laughing together, just us — that's the
+              kind of intimacy and comfort I never ever want to lose with you.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PHOTO GALLERY SECTION ═══ -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">📸 Us</span>
+        <h2 class="section-title">Our Moments, Captured</h2>
+        <p class="section-sub">Real memories. Real love. This is us. 🥺</p>
+      </div>
+      <div class="gallery-grid">
+
+        <div class="gallery-item gallery-item--tall reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-18 at 10.06.29 PM.jpeg"
+            alt="Sitting by the river together" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>By the river, just us 🌿</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-26 at 8.38.28 AM.jpeg" alt="Cafe selfie together"
+            loading="lazy" />
+          <div class="gallery-overlay">
+            <p>My forever person ☕</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-30 at 4.07.03 PM.jpeg"
+            alt="Upside-down sky selfie" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Sky + you = perfect ☁️</p>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--wide reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-18 at 8.06.06 PM.jpeg" alt="College together"
+            loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Standing proud next to my girl 💗</p>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--tall reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-18 at 7.49.45 PM.jpeg"
+            alt="Mirror selfie with stickers" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Mirror says it all 🌸</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-05-02 at 11.09.11 PM.jpeg"
+            alt="Touching hair at night" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>I'll always take care of you 🥺</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-30 at 4.07.03 PM (1).jpeg"
+            alt="Night kiss moment" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Caught in the act 💋</p>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--wide reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-04-30 at 4.07.04 PM.jpeg"
+            alt="Heart hands on video call" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Even on a screen — our hearts match 💕</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-05-02 at 11.09.14 PM.jpeg" alt="Us together close"
+            loading="lazy" />
+          <div class="gallery-overlay">
+            <p>My favourite human 🥺</p>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--tall reveal">
+          <img src="iCloud Photos/iCloud Photos/IMG_6404.JPEG" alt="Mirror selfie together at home" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>You. Always you. 🏠💕</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/IMG_5778.JPEG" alt="Heart drawings on our hands" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Matching hearts, matching souls 🖤</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="iCloud Photos/iCloud Photos/WhatsApp Image 2026-05-02 at 11.09.10 PM.jpeg"
+            alt="Close together at night" loading="lazy" />
+          <div class="gallery-overlay">
+            <p>Red light, warm night 🌹</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROMISE SECTION ═══ -->
+  <section class="section promise-section" id="promise">
+    <div class="container">
+      <div class="promise-card reveal">
+        <div class="promise-header">
+          <span class="promise-emoji">💍</span>
+          <h2>My Promise To You</h2>
+        </div>
+        <div class="promises-list">
+          <div class="promise-item">
+            <span class="promise-icon">💫</span>
+            <p>I will never make you feel like an option. You are my <strong>priority</strong>.</p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">🏠</span>
+            <p>I see you as the woman I want to build a <strong>home and family</strong> with.</p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">💎</span>
+            <p>I will give you everything — respect, love, laughter, and <strong>jewellery when I mess up</strong> 😄
+            </p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">🤗</span>
+            <p>Jab bhi tujhe problem ho — mujhe bata. Main problem mai hu, toh <strong>laad karke solutions</strong>
+              dunga.</p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">🚀</span>
+            <p>I promise to be <strong>your safe place</strong> — where your overthinking quiets down and your heart
+              rests.</p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">💒</span>
+            <p>This isn't temporary. I'm in this for <strong>forever with you</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FACTS ABOUT HER ═══ -->
+  <section class="section facts-section" id="facts">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">🎀 Because I pay attention</span>
+        <h2 class="section-title">Things I Know About You</h2>
+        <p class="section-sub">Proof that I listen. Proof that I care. Proof that you're never just an option.</p>
+      </div>
+      <div class="facts-grid">
+        <div class="fact-card reveal">
+          <div class="fact-icon">🎂</div>
+          <h3>Atharva's Birthday</h3>
+          <p>10 September — your brother's special day. I remember.</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">📚</div>
+          <h3>Roll Number 23</h3>
+          <p>Till 10th, your roll number was 23. Chhoti chhoti baatein bhi yaad hai mujhe. 🥺</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">🏫</div>
+          <h3>SM High School</h3>
+          <p>Rajarshi Shahu Mahavidyalaya — where you studied and grew into the brilliant person you are.</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">🌸</div>
+          <h3>Born in Udgir</h3>
+          <p>Kalyani Hospital mein tujhe duniya mili. That city gave the world you — and I'm grateful every day.</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">🚫</div>
+          <h3>No Dahi. Ever.</h3>
+          <p>Noted, remembered, respected. No dahi. Always. 😅</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">🍋</div>
+          <h3>No Litchi Either</h3>
+          <p>Litchi? Hard no. I've got your dislikes memorized like a love language. 💕</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">💄</div>
+          <h3>Damage Control = Jewellery</h3>
+          <p>Instant. No delays. You deserve to be pampered, always — especially when I mess up. 💍</p>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-icon">🎁</div>
+          <h3>Mummy Ka Birthday</h3>
+          <p>26 November 1977. I know the people who matter to you, because they matter to me too.</p>
+        </div>
+        <div class="fact-card reveal bts-card">
+          <div class="fact-icon">💜</div>
+          <h3>Army Forever</h3>
+          <p>BTS hits different when you're the one listening to it. Purple hearts and soft tears — I see you. 💜</p>
+        </div>
+        <div class="fact-card reveal doja-card">
+          <div class="fact-icon">🎤</div>
+          <h3>Doja Cat Energy</h3>
+          <p>From Planet Her to Say So — that confident baddie energy in the music? That's you too. 😍</p>
+        </div>
+        <div class="fact-card reveal girly-card">
+          <div class="fact-icon">🎀</div>
+          <h3>Girly Girl, Always</h3>
+          <p>Bows, pink, sparkles, aesthetics — you make femininity look like a superpower. Never change. ✨</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ HER UNIVERSE SECTION ═══ -->
+  <section class="section universe-section" id="universe">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag universe-tag">🌸 Her world</span>
+        <h2 class="section-title universe-title">Her Universe ✨</h2>
+        <p class="section-sub universe-sub">The things that make you, you — and why I love every bit of it.</p>
+      </div>
+      <div class="universe-grid">
+
+        <div class="universe-card reveal bts-universe">
+          <div class="universe-card-top">
+            <span class="u-emoji">💜</span>
+            <h3>BTS</h3>
+            <span class="u-tag bts-tag">Army</span>
+          </div>
+          <p>You feel their music in your soul — the emotions, the lyrics, the way it hits at 2am. I love that about
+            you. And watching you vibe to BTS is honestly one of the cutest things ever. 🥺</p>
+          <div class="u-quote">&ldquo;You are the cause of my euphoria.&rdquo; — BTS 💜</div>
+        </div>
+
+        <div class="universe-card reveal doja-universe">
+          <div class="universe-card-top">
+            <span class="u-emoji">🔥</span>
+            <h3>Doja Cat</h3>
+            <span class="u-tag doja-tag">Planet Her</span>
+          </div>
+          <p>That baddie energy, that confidence, that unapologetic self — Doja gets it. And so do you. You carry that
+            same &ldquo;I know my worth&rdquo; aura, even when your overthinking tries to convince you otherwise.</p>
+          <div class="u-quote">&ldquo;She&rsquo;s a star, she&rsquo;s a queen.&rdquo; ✨</div>
+        </div>
+
+        <div class="universe-card reveal girly-universe">
+          <div class="universe-card-top">
+            <span class="u-emoji">🎀</span>
+            <h3>Girly Girl</h3>
+            <span class="u-tag girly-tag">That Girl</span>
+          </div>
+          <p>Pink, pretty, soft, and powerful all at once. You&rsquo;re completely feminine AND completely fierce. That
+            combination? Irresistible. The most beautiful kind of girl — my girl. 💗</p>
+          <div class="u-quote">&ldquo;Soft on the outside. Storm on the inside.&rdquo; 🌸</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FINAL MESSAGE ═══ -->
+  <section class="section final-section" id="final">
+    <div class="container">
+      <div class="final-card reveal">
+        <div class="heart-big">❤️</div>
+        <h2 class="final-title">You Are Loved.<br />Completely. Truly.</h2>
+        <p class="final-para">
+          Piku, you are not an option.<br />
+          You are the answer.<br />
+          You are the ending I want.<br />
+          You are the beginning of everything that matters.<br /><br />
+          Whenever your brain tells you I don't love you enough —<br />
+          open this page.<br />
+          Read these words.<br />
+          And know that every single syllable is true.
+        </p>
+        <div class="final-quote">
+          "Mujhe sirf teri zaroorat hai. Bas tu hi kaafi hai."
+        </div>
+        <p class="final-sign">
+          Always yours 💍<br />
+          <span class="signature-big">Your person, forever.</span>
+        </p>
+        <div class="confetti-btn-wrap">
+          <button class="confetti-btn" id="loveBtn" onclick="triggerLove()">
+            💕 Press if you believe me
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <p>Made with every ounce of love 💕 For Prerana — my Piku, my person, my future.</p>
+  </footer>
+
+  <!-- Love explosion overlay -->
+  <div class="love-overlay" id="loveOverlay">
+    <div class="love-message">
+      <div class="love-emoji-big">💕</div>
+      <h2>I love you so much, Piku! 🥺</h2>
+      <p>You are my everything. <br />Teri yahi jagah hai — mere dil mein, hamesha. 💍</p>
+      <button onclick="closeLove()" class="close-love-btn">🤍 I know you do</button>
+    </div>
+  </div>
+
+  <!-- ═══ MUSIC PLAYER ═══ -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="https://cdn.pixabay.com/download/audio/2022/05/16/audio_b28258dc25.mp3?filename=romantic-piano-111161.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicToggleBtn" class="music-btn" title="Play/Pause Music">
+    <span class="music-icon">🎵</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
